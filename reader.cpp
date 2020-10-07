@@ -61,14 +61,14 @@ int main(){
            }
 
            
-           //cout<< line << "\n";
+          
        }
 
-        string test1;
-        string test2;
-        ifstream check1;
-        ifstream check2;
-        string duptext;
+       string test1;
+       string test2;
+       ifstream check1;
+       ifstream check2;
+       string duptext;
        pair<string,string> duplicates;
        
        //checking for the duplicate line in the created files and storing the filenames
@@ -93,7 +93,7 @@ int main(){
            }
        }
        ofstream last1;
-       
+       //adding every line from loomings into loomings-clean except for the duplicate
        last1.open("loomings-clean.txt");
        for( int i = 0 ; i < files.size(); i ++){
            ifstream last2;

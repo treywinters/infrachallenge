@@ -112,9 +112,9 @@ int main(){
 	for(int i = 0; i < files_sorted.size(); i++){
                cout<< files_sorted[i].first<< " " <<files_sorted[i].second<<endl;
            }
-	cout<<endl;
+	cout<<endl<<endl;
         //printing the duplicate files and duplicate line
-        cout<<"Duplicates : "<<duplicates.first<<" "<<duplicates.second<<"\n Line: "<<duptext<<endl;
+        cout<<"Duplicates : "<<duplicates.first<<" "<<duplicates.second<<endl<<"\n Line: "<<duptext<<endl<<endl;
         
        file.close();
    }

@@ -108,9 +108,11 @@ int main(){
        last1.close();
 
        //printing out list of sorted files with their respective file sizes
-       for(int i = 0; i < files_sorted.size(); i++){
+      	cout<<"< Printing out the sorted list of File Names and File Sizes >"<<endl; 
+	for(int i = 0; i < files_sorted.size(); i++){
                cout<< files_sorted[i].first<< " " <<files_sorted[i].second<<endl;
            }
+	cout<<endl;
         //printing the duplicate files and duplicate line
         cout<<"Duplicates : "<<duplicates.first<<" "<<duplicates.second<<"\n Line: "<<duptext<<endl;
         
